@@ -1,0 +1,12 @@
+import array as arr
+a=arr.array('i',[3,6,7,82,90,54,7])
+print('Array:',a)
+a.append(89)
+print('Array:',a)
+a.insert(4,67)
+print('Array:',a)
+a.pop()
+print('Array:',a)
+a.reverse()
+print('Array:',a)
+print('Array:',a.count(7))
